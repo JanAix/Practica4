@@ -1,0 +1,14 @@
+name: app_notas  # Cambia "app_notas" por el nombre que prefieras
+description: "Aplicación de notas con Flutter y NavigationRail"
+publish_to: "none"  # Si es un proyecto privado, mantenlo así
+
+version: 1.0.0+1  # Puedes cambiar la versión según tu desarrollo
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  shared_preferences: ^2.2.2  # Para persistencia de datos
